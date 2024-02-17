@@ -1,1 +1,51 @@
+Wireshark is a powerful network protocol analyzer that allows you to capture and inspect data traveling back and forth on a network. 
 
+## Here are the basic steps to use Wireshark:
+
+**Step 1: Install Wireshark**
+    #On Linux:
+      - Use your distribution's package manager to install Wireshark. For example, on Debian-based systems:
+          $ sudo apt update
+          $ sudo apt install wireshark
+    #On Windows:
+      - Download the Wireshark installer from the official website and follow the installation instructions.
+    #On macOS:
+      - Use a package manager like Homebrew to install Wireshark: 
+          $ brew install wireshark
+
+**Step 2: Launch Wireshark**
+    #On Linux:
+      - Open a terminal and run:
+          $ sudo wireshark
+    #On Windows/macOS:
+      - Launch Wireshark from the Start menu or applications folder.
+
+**Step 3: Capture Traffic**
+    #Select a Network Interface:
+      - Choose the network interface you want to capture traffic on. It could be your Wi-Fi adapter or Ethernet connection.
+    #Start Capturing:
+      - Click the "Start" button to begin capturing traffic.
+
+**Step 4: Analyze Captured Packets**
+    #Observe Live Capture:
+      - You will see a live stream of captured packets in the main window.
+    #Stop Capture:
+      - Click the "Stop" button when you've captured enough data.
+    #Filter Captured Data:
+      - Use display filters to focus on specific types of traffic (e.g., http for HTTP traffic).
+
+**Step 5: Inspect Packets**
+    #Select a Packet:
+      - Click on a packet in the list to see details in the bottom panel.
+    #Examine Packet Details:
+      - Inspect the various sections like Ethernet frame, IP header, TCP/UDP header, etc.
+
+**Step 6: Save Captured Data**
+    #Save Capture:
+      - Save the captured data to a file for later analysis.
+
+## Tips:
+      - Use filters to narrow down the displayed packets (e.g., http, ip.addr == x.x.x.x).
+      - Wireshark has various features for analyzing specific protocols and identifying potential issues.
+
+Remember, using Wireshark on networks you don't own or have explicit permission to analyze is against the law and ethical guidelines. Always ensure you have proper authorization before capturing or analyzing network traffic.
