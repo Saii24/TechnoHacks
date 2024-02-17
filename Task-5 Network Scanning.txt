@@ -1,1 +1,5 @@
+Nmap, or Network Mapper, is a free, open-source network scanning and security auditing tool. It's a command-line tool that uses packets to send messages and analyze 
+responses to discover hosts and services on a network.
+
+### Here are general steps to use Nmap to scan a network for open ports and vulnerable services:
 
